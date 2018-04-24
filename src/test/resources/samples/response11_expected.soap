@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <ns1:financebankstatementGetBankStatementResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://ws.integclaims.itf.com">
+   <financebankstatementGetBankStatementDataSet xsi:type="ns1:financebankstatementGetBankStatementDataSetType">
+    <financebankstatementGetBankStatementDataSetRecord xsi:type="ns1:financebankstatementGetBankStatementDataSetRecordType">
+     <bankStatementId xsi:type="xsd:long">13</bankStatementId>
+     <bankAccount xsi:type="xsd:string">600325 - 20629959</bankAccount>
+     <statementDateStart xsi:type="xsd:string">19/08/2013</statementDateStart>
+     <statementDateStart.formattedDate xsi:type="xsd:string" xsi:nil="true"/>
+     <statementDateStart.formattedDateTime xsi:type="xsd:string" xsi:nil="true"/>
+     <statementDateEnd xsi:type="xsd:string">19/08/2013</statementDateEnd>
+     <statementDateEnd.formattedDate xsi:type="xsd:string" xsi:nil="true"/>
+     <statementDateEnd.formattedDateTime xsi:type="xsd:string" xsi:nil="true"/>
+     <openingBalance xsi:type="xsd:string" xsi:nil="true"/>
+     <openingBalance.formattedString xsi:type="xsd:string" xsi:nil="true"/>
+     <closingBalance xsi:type="xsd:string">&#xA3;680.00</closingBalance>
+     <closingBalance.formattedString xsi:type="xsd:string" xsi:nil="true"/>
+     <reconciliationCompletedDate xsi:type="xsd:string">12/09/2015</reconciliationCompletedDate>
+     <reconciliationCompletedDate.formattedDate xsi:type="xsd:string" xsi:nil="true"/>
+     <reconciliationCompletedDate.formattedDateTime xsi:type="xsd:string" xsi:nil="true"/>
+     <firstStatementForAccount xsi:type="xsd:boolean">true</firstStatementForAccount>
+     <statementBalanced xsi:type="xsd:boolean">true</statementBalanced>
+     <deletable xsi:type="xsd:boolean">false</deletable>
+    </financebankstatementGetBankStatementDataSetRecord>
+   </financebankstatementGetBankStatementDataSet>
+  </ns1:financebankstatementGetBankStatementResponse>
+ </soapenv:Body>
+</soapenv:Envelope>

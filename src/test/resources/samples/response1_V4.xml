@@ -1,0 +1,164 @@
+<ns1:findRefDataDataSetType xmlns:ns1="http://ws.integclaims.itf.com">
+   <FindRefDataDataSetRecord>
+      <code>CAPTAIN</code>
+      <description>Captain</description>
+      <descriptionCode>Captain (CAPTAIN)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>DAME</code>
+      <description>Dame</description>
+      <descriptionCode>Dame (DAME)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>DR</code>
+      <description>Doctor</description>
+      <descriptionCode>Doctor (DR)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>EXECUTORS</code>
+      <description>Executor(s) of</description>
+      <descriptionCode>Executor(s) of (EXECUTORS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>LADY</code>
+      <description>Lady</description>
+      <descriptionCode>Lady (LADY)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>LORD</code>
+      <description>Lord</description>
+      <descriptionCode>Lord (LORD)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MAJORT</code>
+      <description>Major</description>
+      <descriptionCode>Major (MAJORT)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MAS</code>
+      <description>Master</description>
+      <descriptionCode>Master (MAS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MISS</code>
+      <description>Miss</description>
+      <descriptionCode>Miss (MISS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MR</code>
+      <description>Mr</description>
+      <descriptionCode>Mr (MR)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MRANDMRS</code>
+      <description>Mr &amp; Mrs</description>
+      <descriptionCode>Mr &amp; Mrs (MRANDMRS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MRS</code>
+      <description>Mrs</description>
+      <descriptionCode>Mrs (MRS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>MS</code>
+      <description>Ms</description>
+      <descriptionCode>Ms (MS)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>OTHER</code>
+      <description>Other</description>
+      <descriptionCode>Other (OTHER)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>PROF</code>
+      <description>Professor</description>
+      <descriptionCode>Professor (PROF)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>RABBI</code>
+      <description>Rabbi</description>
+      <descriptionCode>Rabbi (RABBI)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>REV</code>
+      <description>Reverend</description>
+      <descriptionCode>Reverend (REV)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code>SIR</code>
+      <description>Sir</description>
+      <descriptionCode>Sir (SIR)</descriptionCode>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo>0</orderNo>
+   </FindRefDataDataSetRecord>
+</ns1:findRefDataDataSetType>

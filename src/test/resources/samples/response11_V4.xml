@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:financebankstatementGetBankStatementDataSetType xmlns:ns3="http://ws.integclaims.itf.com">
+    <financebankstatementGetBankStatementDataSetRecord>
+        <bankStatementId>13</bankStatementId>
+        <bankAccount>600325 - 20629959</bankAccount>
+        <statementDateStart>19/08/2013</statementDateStart>
+        <statementDateEnd>19/08/2013</statementDateEnd>
+        <closingBalance>£680.00</closingBalance>
+        <reconciliationCompletedDate>12/09/2015</reconciliationCompletedDate>
+        <firstStatementForAccount>true</firstStatementForAccount>
+        <statementBalanced>true</statementBalanced>
+        <deletable>false</deletable>
+    </financebankstatementGetBankStatementDataSetRecord>
+</ns3:financebankstatementGetBankStatementDataSetType>

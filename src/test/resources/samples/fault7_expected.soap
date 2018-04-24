@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode>soapenv:Server.generalException</faultcode>
+   <faultstring>; nested exception is: 
+	com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '!' (code 33) expected '='
+ at [row,col {unknown-source}]: [1,39]</faultstring>
+   <detail>
+    <ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">qets-imac-klimczakp.local</ns1:hostname>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>

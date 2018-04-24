@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:GenericWebServiceMessage xmlns="http://ws.integclaims.itf.com" xmlns:ns2="http://generic.message.integclaims.integ.com"><ns2:keyValuePair><ns2:valueType>DATE_TIME</ns2:valueType><ns2:dateTimeValue>2001-10-26T19:32:52+01:00</ns2:dateTimeValue></ns2:keyValuePair></ns2:GenericWebServiceMessage>

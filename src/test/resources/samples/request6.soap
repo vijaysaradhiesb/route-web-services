@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.integclaims.itf.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:documentAttachDocument soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <username xsi:type="xsd:string">username</username>
+         <password xsi:type="xsd:string">password</password>
+         <documentId xsi:type="xsd:long">1</documentId>
+         <claimId xsi:type="xsd:long">2</claimId>
+         <claimNumber xsi:type="xsd:string">C3</claimNumber>
+         <externalClaimReference xsi:type="xsd:string">CR4</externalClaimReference>
+         <documentType xsi:type="xsd:string">documentType</documentType>
+         <documentSubType xsi:type="xsd:string">documentSubType</documentSubType>
+         <description xsi:type="xsd:string">description</description>
+         <relatedPartyId xsi:type="xsd:long">5</relatedPartyId>
+         <documentFileName xsi:type="xsd:string">documentFileName</documentFileName>
+         <attachedDocument xsi:type="xsd:base64Binary">QUJDCg==</attachedDocument>
+         <senderEmailAddress xsi:type="xsd:string">senderEmailAddress</senderEmailAddress>
+      </ws:documentAttachDocument>
+   </soapenv:Body>
+</soapenv:Envelope>

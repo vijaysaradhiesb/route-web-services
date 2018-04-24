@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <ns1:FindRefDataResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://ws.integclaims.itf.com">
+   <FindRefDataDataSet xsi:type="ns1:FindRefDataDataSetType">
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string" xsi:nil="true"/>
+     <description xsi:type="xsd:string" xsi:nil="true"/>
+     <descriptionCode xsi:type="xsd:string" xsi:nil="true"/>
+     <parentCode xsi:type="xsd:string" xsi:nil="true"/>
+     <companyCode xsi:type="xsd:string" xsi:nil="true"/>
+     <filterCode xsi:type="xsd:string" xsi:nil="true"/>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string"></code>
+     <description xsi:type="xsd:string"></description>
+     <descriptionCode xsi:type="xsd:string"></descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string" xsi:nil="true"/>
+     <description xsi:type="xsd:string" xsi:nil="true"/>
+     <descriptionCode xsi:type="xsd:string" xsi:nil="true"/>
+     <parentCode xsi:type="xsd:string" xsi:nil="true"/>
+     <companyCode xsi:type="xsd:string" xsi:nil="true"/>
+     <filterCode xsi:type="xsd:string" xsi:nil="true"/>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+   </FindRefDataDataSet>
+  </ns1:FindRefDataResponse>
+ </soapenv:Body>
+</soapenv:Envelope>

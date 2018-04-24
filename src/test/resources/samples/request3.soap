@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.integclaims.itf.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:financebankstatementReconcileBankStatement soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <username xsi:type="xsd:string">username</username>
+         <password xsi:type="xsd:string">password</password>
+         <bankStatementId xsi:type="xsd:long">1</bankStatementId>
+      </ws:financebankstatementReconcileBankStatement>
+   </soapenv:Body>
+</soapenv:Envelope>

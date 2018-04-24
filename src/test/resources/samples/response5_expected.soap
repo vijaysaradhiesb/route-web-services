@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <ns1:documentgenerationGetDocumentDataResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://ws.integclaims.itf.com">
+   <documentDataXml xsi:type="xsd:string">String,String</documentDataXml>
+  </ns1:documentgenerationGetDocumentDataResponse>
+ </soapenv:Body>
+</soapenv:Envelope>

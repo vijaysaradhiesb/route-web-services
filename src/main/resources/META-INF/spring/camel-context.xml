@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:cxf="http://camel.apache.org/schema/cxf"
+       xmlns:http-conf="http://cxf.apache.org/transports/http/configuration"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://camel.apache.org/schema/spring
+            http://camel.apache.org/schema/spring/camel-spring.xsd
+            http://camel.apache.org/schema/cxf
+            http://camel.apache.org/schema/cxf/camel-cxf.xsd
+            http://cxf.apache.org/transports/http/configuration
+            http://cxf.apache.org/schemas/configuration/http-conf.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <http-conf:conduit name="*.http-conduit">
+        <http-conf:client
+                Connection="Keep-Alive"
+                ReceiveTimeout="${ice.request.timeout}"/>
+    </http-conf:conduit>
+
+    <cxf:cxfEndpoint id="claimsV4Endpoint" address="${claims.ws.url}"
+                     serviceClass="com.integ.integ.web.services.v4.GenericWebServiceEndpointPortType"/>
+
+    <bean id="skeletonMapping" class="com.integ.integ.web.services.util.SkeletonMapping">
+        <property name="skeletons">
+            <list>
+                <bean class="com.itf.integclaims.ws.ICEAlertNotificationSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICECaseFileWebServiceSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEClaimHistoryWebServiceSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEClaimNotifyImmediateSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEExternalSiuSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEGBWebServiceSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEGUIWebServiceSoapBindingSkeleton"/>
+                <bean class="com.itf.integclaims.ws.ICEScanningWebServiceSoapBindingSkeleton"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="requestTansformer" class="com.integ.integ.web.services.WebV3RequestTransformer">
+        <property name="skeletonMapping" ref="skeletonMapping"/>
+    </bean>
+
+    <bean id="responseTransformer" class="com.integ.integ.web.services.WebV3ResponseTransformer">
+        <property name="skeletonMapping" ref="skeletonMapping"/>
+    </bean>
+
+    <bean id="exceptionTransformer" class="com.integ.integ.web.services.WebV3ExceptionTransformer">
+        <property name="skeletonMapping" ref="skeletonMapping"/>
+    </bean>
+
+
+    <!-- To be used with WS only -->
+    <camelContext id="integ-webservices-camel-context" useMDCLogging="true"
+                  streamCache="true"
+                  trace="${camel.trace.enabled:false}" xmlns="http://camel.apache.org/schema/spring">
+        <propertyPlaceholder id="wsProperties" location="ref:properties"/>
+
+        <route id="WebV3toV4Proxy">
+            <from uri="servlet:///V3ToV4?servletName={{servlet.name}}"/>
+            <doTry>
+                <convertBodyTo type="java.lang.String"/>
+                <transform>
+                    <method ref="requestTansformer" method="transform"/>
+                </transform>
+                <removeHeaders pattern="*"/>
+                <to uri="cxf:bean:claimsV4Endpoint"/>
+                <transform>
+                    <method ref="responseTransformer" method="transform"/>
+                </transform>
+                <doCatch>
+                    <exception>java.lang.Exception</exception>
+                    <setFaultBody>
+                        <method ref="exceptionTransformer" method="transform"/>
+                    </setFaultBody>
+                </doCatch>
+            </doTry>
+        </route>
+    </camelContext>
+
+</beans>

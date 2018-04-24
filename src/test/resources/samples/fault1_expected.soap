@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <soapenv:Fault>
+   <faultcode>soapenv:Server</faultcode>
+   <faultstring>ONE TICKET TO NEVERLAND PLEASE!</faultstring>
+   <detail>
+    <ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">localhost</ns1:hostname>
+   </detail>
+  </soapenv:Fault>
+ </soapenv:Body>
+</soapenv:Envelope>

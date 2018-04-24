@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="${feature.name}-${project.version}">
+
+    <!--
+        Usage:
+        features:addurl mvn:${pom.groupId}/${pom.artifactId}/${project.version}/xml/features
+     -->
+
+    <feature name="${feature.name}-deps" version="${project.version}">
+        <feature>camel</feature>
+        <feature>camel-core</feature>
+        <feature>camel-http</feature>
+        <feature>camel-servlet</feature>
+        <feature>camel-jaxb</feature>
+        <feature>camel-cxf</feature>
+
+        <bundle dependency="true">mvn:commons-beanutils/commons-beanutils/${commons-beanutils-version}</bundle>
+        <bundle>mvn:com.integ.ice.integration.model/integ-webservices-model/${ice.webservices.model.version}</bundle>
+    </feature>
+
+    <feature name="${feature.name}" version="${project.version}">
+        <feature version="${project.version}">${feature.name}-deps</feature>
+        <bundle>mvn:${project.groupId}/${project.artifactId}/${project.version}</bundle>
+    </feature>
+
+    <feature name="${feature.name}-docker-connectivity" version="${project.version}"/>
+
+</features>

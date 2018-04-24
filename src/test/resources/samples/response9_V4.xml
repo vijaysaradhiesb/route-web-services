@@ -1,0 +1,14 @@
+<ns1:findRefDataDataSetType xmlns:ns1="http://ws.integclaims.itf.com">
+   <FindRefDataDataSetRecord>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord>
+      <code/>
+      <description/>
+      <descriptionCode/>
+      <parentCode/>
+      <companyCode/>
+      <filterCode/>
+      <orderNo/>
+   </FindRefDataDataSetRecord>
+   <FindRefDataDataSetRecord/>
+</ns1:findRefDataDataSetType>

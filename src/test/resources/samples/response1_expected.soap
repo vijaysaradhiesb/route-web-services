@@ -1,0 +1,170 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <ns1:FindRefDataResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://ws.integclaims.itf.com">
+   <FindRefDataDataSet xsi:type="ns1:FindRefDataDataSetType">
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">CAPTAIN</code>
+     <description xsi:type="xsd:string">Captain</description>
+     <descriptionCode xsi:type="xsd:string">Captain (CAPTAIN)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">DAME</code>
+     <description xsi:type="xsd:string">Dame</description>
+     <descriptionCode xsi:type="xsd:string">Dame (DAME)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">DR</code>
+     <description xsi:type="xsd:string">Doctor</description>
+     <descriptionCode xsi:type="xsd:string">Doctor (DR)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">EXECUTORS</code>
+     <description xsi:type="xsd:string">Executor(s) of</description>
+     <descriptionCode xsi:type="xsd:string">Executor(s) of (EXECUTORS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">LADY</code>
+     <description xsi:type="xsd:string">Lady</description>
+     <descriptionCode xsi:type="xsd:string">Lady (LADY)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">LORD</code>
+     <description xsi:type="xsd:string">Lord</description>
+     <descriptionCode xsi:type="xsd:string">Lord (LORD)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MAJORT</code>
+     <description xsi:type="xsd:string">Major</description>
+     <descriptionCode xsi:type="xsd:string">Major (MAJORT)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MAS</code>
+     <description xsi:type="xsd:string">Master</description>
+     <descriptionCode xsi:type="xsd:string">Master (MAS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MISS</code>
+     <description xsi:type="xsd:string">Miss</description>
+     <descriptionCode xsi:type="xsd:string">Miss (MISS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MR</code>
+     <description xsi:type="xsd:string">Mr</description>
+     <descriptionCode xsi:type="xsd:string">Mr (MR)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MRANDMRS</code>
+     <description xsi:type="xsd:string">Mr &amp; Mrs</description>
+     <descriptionCode xsi:type="xsd:string">Mr &amp; Mrs (MRANDMRS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MRS</code>
+     <description xsi:type="xsd:string">Mrs</description>
+     <descriptionCode xsi:type="xsd:string">Mrs (MRS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">MS</code>
+     <description xsi:type="xsd:string">Ms</description>
+     <descriptionCode xsi:type="xsd:string">Ms (MS)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">OTHER</code>
+     <description xsi:type="xsd:string">Other</description>
+     <descriptionCode xsi:type="xsd:string">Other (OTHER)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">PROF</code>
+     <description xsi:type="xsd:string">Professor</description>
+     <descriptionCode xsi:type="xsd:string">Professor (PROF)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">RABBI</code>
+     <description xsi:type="xsd:string">Rabbi</description>
+     <descriptionCode xsi:type="xsd:string">Rabbi (RABBI)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">REV</code>
+     <description xsi:type="xsd:string">Reverend</description>
+     <descriptionCode xsi:type="xsd:string">Reverend (REV)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+    <FindRefDataDataSetRecord xsi:type="ns1:FindRefDataDataSetRecordType">
+     <code xsi:type="xsd:string">SIR</code>
+     <description xsi:type="xsd:string">Sir</description>
+     <descriptionCode xsi:type="xsd:string">Sir (SIR)</descriptionCode>
+     <parentCode xsi:type="xsd:string"></parentCode>
+     <companyCode xsi:type="xsd:string"></companyCode>
+     <filterCode xsi:type="xsd:string"></filterCode>
+     <orderNo xsi:type="xsd:int">0</orderNo>
+    </FindRefDataDataSetRecord>
+   </FindRefDataDataSet>
+  </ns1:FindRefDataResponse>
+ </soapenv:Body>
+</soapenv:Envelope>
